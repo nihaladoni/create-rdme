@@ -5,14 +5,13 @@ module.exports = toolbox => {
   toolbox.addLicense = async () => {
     const {
       template: { generate },
-      print: { success },
       filesystem
     } = toolbox
 
     const response = await prompts({
       type: 'text',
       name: 'fullName',
-      message: '👨‍💻 Full Name',
+      message: '👥 Full Name',
       initial: Constants.fullName
     })
 

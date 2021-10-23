@@ -17,19 +17,19 @@ const command = {
       {
         type: 'text',
         name: 'email',
-        message: '👨‍💻 User Email',
+        message: '📬 User Email',
         initial: Constants.email
       },
       {
         type: 'text',
         name: 'username',
-        message: '👨‍💻 Github username',
+        message: '😸 Github username',
         initial: Constants.username
       },
       {
         type: 'text',
         name: 'repoName',
-        message: '💻 Repository Name'
+        message: '📂 Repository Name'
       },
       {
         type: 'text',
@@ -39,7 +39,7 @@ const command = {
       {
         type: 'text',
         name: 'description',
-        message: '📔 Project description'
+        message: '💬 Project description'
       },
       {
         type: 'text',
@@ -49,21 +49,21 @@ const command = {
       {
         type: 'confirm',
         name: 'isLogoUrl',
-        message: '🎞️ do u have logo Url?',
-        initial: false
+        message: '🌀 Do u have logo Url?',
+        initial: ''
       },
 
       {
         type: 'list',
         name: 'stack',
-        message: '🧑‍💻  Add Stack (separated by comma (,)',
+        message: '🗒️  Add Stack (separated by comma (,)',
         initial: [],
         separator: ','
       },
       {
         type: 'text',
         name: 'startCommand',
-        message: '🖥️ Enter start command',
+        message: '🖥️  Enter start command',
         initial: Constants.startCommand
       },
 
@@ -76,7 +76,7 @@ const command = {
       {
         type: 'text',
         name: 'linkedinUsername',
-        message: '🤵 Linkedin username',
+        message: '💼 Linkedin username',
         initial: Constants.linkedinUsername
       },
       {
