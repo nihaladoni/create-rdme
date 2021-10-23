@@ -88,7 +88,7 @@ npm install
 
 ## Contributing
 
-Contributions are always welcome! . Please read the [contribution guidelines](contributing) first.
+Contributions are always welcome! . Please read the [contribution guidelines](CONTRIBUTING) first.
 
 <!-- LICENSE -->
 ## License
