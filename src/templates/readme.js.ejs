@@ -1,0 +1,108 @@
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/<%= props.username %>/<%= props.repoName %>">
+    <img src="images/logo.png" alt="Logo" width="80" height="80" />
+  </a>
+
+  <h2 align="center"><%= props.projectName %></h2>
+
+  <p align="center">
+    <%= props.description %>
+  </p>
+
+  <div align="center">
+    <a href="https://standardjs.com">
+      <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat"
+        alt="Standard" />
+    </a>
+.
+    <img src="https://img.shields.io/github/languages/code-size/<%= props.username %>/<%= props.repoName %>?style=flat-square" alt="Code size" />
+.
+    <img src="https://img.shields.io/github/license/<%= props.username %>/<%= props.repoName %>?style=flat-square" alt="License" />
+.
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/<%= props.username %>/<%= props.repoName %>?style=flat-square">
+.
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/<%= props.username %>/<%= props.repoName %>?style=social">
+
+  </div>
+
+  <br />
+  <br />
+  <p>
+    <a href="<%= props.liveUrl %> ">View Demo</a>
+    ·
+    <a
+      href="https://github.com/<%= props.username %>/<%= props.repoName %>/issues"
+      >Report Bug</a
+    >
+    ·
+    <a
+      href="https://github.com/<%= props.username %>/<%= props.repoName %>/issues"
+      >Request Feature</a
+    >
+  </p>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+
+### Built with
+
+<ul>
+  <% props.stack?.forEach((item) => { %>
+  <li><%= item %></li>
+  <% }) %>
+</ul>
+
+
+
+<!-- GETTING STARTED -->
+## Getting started
+
+
+### Installation
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/<%= props.username %>/<%= props.repoName %>.git
+```
+
+2. Change directory
+
+```sh
+ cd <%= props.repoName %>
+```
+
+3. Install NPM packages
+
+```sh
+npm install
+```
+
+4. Run the app using command
+
+```sh
+<%= props.startCommand %>
+```
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are always welcome! . Please read the [contribution guidelines](contributing.md) first.
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License.
+
+<!-- CONTACT -->
+## Contact
+
+<%= props.fullName %>
+
+- Email : [<%= props.email %>](mailto:<%= props.email %>)
+- Linkedin : [@<%= props.linkedinUsername %>](https://linkedin.com/in/<%= props.linkedinUsername %>)
+- Twitter : [@<%= props.twitterHandle %>](https://twitter.com/<%= props.twitterHandle %>)
+- Website : [<%= props.website %>](<%= props.website %>)
