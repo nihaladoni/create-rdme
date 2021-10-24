@@ -1,4 +1,5 @@
-const Constants = require('../../CONSTANTS')
+// const Constants = require('../../CONSTANTS')
+const store = require('data-store')({ path: process.cwd() + '/userData.json' })
 const prompts = require('prompts')
 
 const command = {
@@ -18,13 +19,13 @@ const command = {
         type: 'text',
         name: 'email',
         message: '📬 User Email',
-        initial: Constants.email
+        initial: store.get('email') || ''
       },
       {
         type: 'text',
-        name: 'username',
+        name: 'githubUsername',
         message: '😸 Github username',
-        initial: Constants.username
+        initial: store.get('githubUsername') || ''
       },
       {
         type: 'text',
@@ -64,40 +65,60 @@ const command = {
         type: 'text',
         name: 'startCommand',
         message: '🖥️  Enter start command',
-        initial: Constants.startCommand
+        initial: store.get('startCommand') || ''
       },
 
       {
         type: 'text',
         name: 'twitterHandle',
         message: '🐦 Twitter username',
-        initial: Constants.twitterHandle
+        initial: store.get('twitterHandle') || ''
       },
       {
         type: 'text',
         name: 'linkedinUsername',
         message: '💼 Linkedin username',
-        initial: Constants.linkedinUsername
+        initial: store.get('linkedinUsername') || ''
       },
       {
         type: 'text',
         name: 'website',
         message: '🌎 Website',
-        initial: Constants.mySite
+        initial: store.get('website') || ''
       }
     ]
 
-    const res = await prompts(questions)
+    const response = await prompts(questions)
 
     await generate({
       template: 'readme.js.ejs',
       target: `${filesystem.cwd()}/README.md`,
-      props: res
+      props: response
     })
 
     await addLicense()
     await addContribute()
-    success('\n Generated README.md, CONTRIBUTING and LICENSE file in the project root directory')
+
+    // Add value of name (questions[0].name) variable for persisting storage here.
+    const staticValues = [
+      'email',
+      'githubUsername',
+      'startCommand',
+      'twitterHandle',
+      'linkedinUsername',
+      'website'
+    ]
+
+    // Filtering the response object to remove redundancy values for storage
+    const resultArr = Object.entries(response)
+    let filteredRes = resultArr.filter(([k, v]) => staticValues.includes(k))
+    const finalObj = Object.fromEntries(filteredRes)
+
+    store.set(finalObj)
+
+    success(
+      '\n Generated README.md, CONTRIBUTING and LICENSE file in the project root directory'
+    )
   }
 }
 

@@ -23,6 +23,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "data-store": "^4.0.3",
     "gluegun": "latest",
     "prompts": "^2.4.2"
   },
