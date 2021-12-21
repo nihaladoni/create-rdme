@@ -3,6 +3,19 @@
   "version": "0.0.1",
   "description": "create-rdme CLI",
   "private": true,
+  "homepage": "https://github.com/nihaladoni/create-rdme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihaladoni/create-rdme.git"
+  },
+  "keywords": [
+    "CLI",
+    "Readme-cli",
+    "License",
+    "Contribution",
+    "readme"
+  ],
+  "author": "Nehal Adoni <nihaladoni@gmail.com>",
   "bin": {
     "create-rdme": "bin/create-rdme"
   },
