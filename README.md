@@ -34,20 +34,27 @@
 
   <br />
   <br />
-  <p>
-    <a href="https://github.com/nihaladoni/create-rdme ">View Demo</a>
-    ·
-    <a
-      href="https://github.com/nihaladoni/create-rdme/issues"
-      >Report Bug</a
-    >
-    ·
-    <a
-      href="https://github.com/nihaladoni/create-rdme/issues"
-      >Request Feature</a
-    >
-  </p>
 </div>
+
+
+
+
+
+<!-- GETTING STARTED -->
+## ⚡ Installation and usage
+
+Use npx to generate the files in the project directory  ( no autocomplete )
+```sh
+npx create-rdme
+```
+<h5>or</h5>
+
+Install the package globally ( enables autocomplete on second run for static values )
+
+```sh
+sudo npm install -g create-rdme && create-rdme
+```
+
 
 <!-- ABOUT THE PROJECT -->
 
@@ -66,35 +73,6 @@
   <li>data-store</li>
   
 </ul>
-
-
-
-<!-- GETTING STARTED -->
-## ⚡ Getting started
-
-1. Clone the repo
-
-```sh
-git clone https://github.com/nihaladoni/create-rdme.git
-```
-
-2. Change directory
-
-```sh
- cd create-rdme
-```
-
-3. Install NPM packages
-
-```sh
-npm install
-```
-
-4. Run the app using command
-
-```sh
-sudo npm link
-```
 
 <!-- CONTRIBUTING -->
 
