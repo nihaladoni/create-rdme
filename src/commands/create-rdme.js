@@ -96,8 +96,6 @@ const command = {
 
     const response = await prompts(questions)
 
-    console.log(response)
-
     await generate({
       template: 'readme.js.ejs',
       target: `${filesystem.cwd()}/README.md`,

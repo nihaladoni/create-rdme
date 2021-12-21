@@ -1,14 +1,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/nihaladoni/clonekeep">
-    <img src="images/logo.png" alt="Logo" width="80" height="80" />
-  </a>
 
-  <h2 align="center">Google Keep clone</h2>
+    
+        <a href="https://github.com/nihaladoni/create-rdme">
+            <img src="images/logo.svg" alt="Logo" width="80" height="80" />
+          </a>
+      
+
+
+
+  <h2 align="center">Readme CLI</h2>
 
   <p align="center">
-    lllllllllll
+    A CLI to generate Readme,Contributing and License file for the github projects.
   </p>
 
 <!-- Shields -->
@@ -18,28 +23,28 @@
         alt="Standard" />
     </a>
 .
-    <img src="https://img.shields.io/github/languages/code-size/nihaladoni/clonekeep?style=flat-square" alt="Code size" />
+    <img src="https://img.shields.io/github/languages/code-size/nihaladoni/create-rdme?style=flat-square" alt="Code size" />
 .
-    <img src="https://img.shields.io/github/license/nihaladoni/clonekeep?style=flat-square" alt="License" />
+    <img src="https://img.shields.io/github/license/nihaladoni/create-rdme?style=flat-square" alt="License" />
 .
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/nihaladoni/clonekeep?style=flat-square">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/nihaladoni/create-rdme?style=flat-square">
 .
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nihaladoni/clonekeep?style=social">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nihaladoni/create-rdme?style=social">
 
   </div>
 
   <br />
   <br />
   <p>
-    <a href="https://clonekeep.netlify.app/ ">View Demo</a>
+    <a href="https://github.com/nihaladoni/create-rdme ">View Demo</a>
     ·
     <a
-      href="https://github.com/nihaladoni/clonekeep/issues"
+      href="https://github.com/nihaladoni/create-rdme/issues"
       >Report Bug</a
     >
     ·
     <a
-      href="https://github.com/nihaladoni/clonekeep/issues"
+      href="https://github.com/nihaladoni/create-rdme/issues"
       >Request Feature</a
     >
   </p>
@@ -51,13 +56,15 @@
 
 <ul>
   
-  <li>a</li>
+  <li>NodeJS</li>
   
-  <li>b</li>
+  <li>NPM</li>
   
-  <li>c</li>
+  <li>gluegun</li>
   
-  <li>d</li>
+  <li>prompts</li>
+  
+  <li>data-store</li>
   
 </ul>
 
@@ -69,13 +76,13 @@
 1. Clone the repo
 
 ```sh
-git clone https://github.com/nihaladoni/clonekeep.git
+git clone https://github.com/nihaladoni/create-rdme.git
 ```
 
 2. Change directory
 
 ```sh
- cd clonekeep
+ cd create-rdme
 ```
 
 3. Install NPM packages
@@ -87,7 +94,7 @@ npm install
 4. Run the app using command
 
 ```sh
-npm start
+sudo npm link
 ```
 
 <!-- CONTRIBUTING -->
@@ -100,9 +107,9 @@ Contributions are always welcome! . Please read the [contribution guidelines](CO
 ## 🕴️ Contact
 
 - Email : [nihaladoni@gmail.com](mailto:nihaladoni@gmail.com)
-- Linkedin : [@](https://linkedin.com/in/)
+- Linkedin : [@nehaladoni](https://linkedin.com/in/nehaladoni)
 - Twitter : [@nihaladni05](https://twitter.com/nihaladni05)
-- Website : [https://nihaladoni.ml](https://nihaladoni.ml)
+- Website : [nihaladoni.ml](nihaladoni.ml)
 
 
 <!-- LICENSE -->
