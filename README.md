@@ -1,14 +1,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com//f">
+  <a href="https://github.com/nihaladoni/clonekeep">
     <img src="images/logo.png" alt="Logo" width="80" height="80" />
   </a>
 
-  <h2 align="center">s</h2>
+  <h2 align="center">Google Keep clone</h2>
 
   <p align="center">
-    s
+    lllllllllll
   </p>
 
 <!-- Shields -->
@@ -18,28 +18,28 @@
         alt="Standard" />
     </a>
 .
-    <img src="https://img.shields.io/github/languages/code-size//f?style=flat-square" alt="Code size" />
+    <img src="https://img.shields.io/github/languages/code-size/nihaladoni/clonekeep?style=flat-square" alt="Code size" />
 .
-    <img src="https://img.shields.io/github/license//f?style=flat-square" alt="License" />
+    <img src="https://img.shields.io/github/license/nihaladoni/clonekeep?style=flat-square" alt="License" />
 .
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors//f?style=flat-square">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/nihaladoni/clonekeep?style=flat-square">
 .
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars//f?style=social">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nihaladoni/clonekeep?style=social">
 
   </div>
 
   <br />
   <br />
   <p>
-    <a href="s ">View Demo</a>
+    <a href="https://clonekeep.netlify.app/ ">View Demo</a>
     ·
     <a
-      href="https://github.com//f/issues"
+      href="https://github.com/nihaladoni/clonekeep/issues"
       >Report Bug</a
     >
     ·
     <a
-      href="https://github.com//f/issues"
+      href="https://github.com/nihaladoni/clonekeep/issues"
       >Request Feature</a
     >
   </p>
@@ -51,9 +51,13 @@
 
 <ul>
   
-  <li>React</li>
+  <li>a</li>
   
-  <li>Hello</li>
+  <li>b</li>
+  
+  <li>c</li>
+  
+  <li>d</li>
   
 </ul>
 
@@ -65,13 +69,13 @@
 1. Clone the repo
 
 ```sh
-git clone https://github.com//f.git
+git clone https://github.com/nihaladoni/clonekeep.git
 ```
 
 2. Change directory
 
 ```sh
- cd f
+ cd clonekeep
 ```
 
 3. Install NPM packages
@@ -96,9 +100,9 @@ Contributions are always welcome! . Please read the [contribution guidelines](CO
 ## 🕴️ Contact
 
 - Email : [nihaladoni@gmail.com](mailto:nihaladoni@gmail.com)
-- Linkedin : [@nehaladoni](https://linkedin.com/in/nehaladoni)
+- Linkedin : [@](https://linkedin.com/in/)
 - Twitter : [@nihaladni05](https://twitter.com/nihaladni05)
-- Website : [nihaladoni.ml](nihaladoni.ml)
+- Website : [https://nihaladoni.ml](https://nihaladoni.ml)
 
 
 <!-- LICENSE -->
