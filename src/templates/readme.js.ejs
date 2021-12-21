@@ -1,14 +1,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
-    <% if(props.logoUrl){ %>
-        <a href="https://github.com/<%= props.githubUsername %>/<%= props.repoName %>">
-            <img src="<%= props.logoUrl %>" alt="Logo" width="80" height="80" />
-          </a>
-      <% }  %>
+  <a href="https://github.com/<%= props.githubUsername %>/<%= props.repoName %>">
+<% if(props.logoUrl){ %>
+<img src="<%= props.logoUrl %>" alt="Logo" width="80" height="80" />
+<% } %>
 
 
+  </a>
 
   <h2 align="center"><%= props.projectName %></h2>
 

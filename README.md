@@ -1,19 +1,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <a href="https://github.com/nihaladoni/create-rdme">
 
-    
-        <a href="https://github.com/nihaladoni/create-rdme">
-            <img src="images/logo.svg" alt="Logo" width="80" height="80" />
-          </a>
-      
+<img src="images/logo.svg" alt="Logo" width="80" height="80" />
 
 
+
+  </a>
 
   <h2 align="center">Readme CLI</h2>
 
   <p align="center">
-    A CLI to generate Readme,Contributing and License file for the github projects.
+    A CLI tool to generate Readme, Contributing and License files for the github projects.
   </p>
 
 <!-- Shields -->
@@ -56,7 +55,7 @@
 
 <ul>
   
-  <li>NodeJS</li>
+  <li>Nodejs</li>
   
   <li>NPM</li>
   
