@@ -49,8 +49,14 @@ const command = {
       },
       {
         type: 'confirm',
-        name: 'isLogoUrl',
-        message: '🌀 Do u have logo Url?',
+        name: 'isAddLogo',
+        message: '🏠 Do u want to add a Logo? '
+      },
+
+      {
+        type: prev => (prev ? 'text' : null),
+        name: 'logoUrl',
+        message: '🌀 Enter logo URL (or relative path)',
         initial: ''
       },
 
@@ -89,6 +95,8 @@ const command = {
     ]
 
     const response = await prompts(questions)
+
+    console.log(response)
 
     await generate({
       template: 'readme.js.ejs',

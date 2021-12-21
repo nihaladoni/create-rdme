@@ -1,9 +1,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/<%= props.githubUsername %>/<%= props.repoName %>">
-    <img src="images/logo.png" alt="Logo" width="80" height="80" />
-  </a>
+
+    <% if(props.logoUrl){ %>
+        <a href="https://github.com/<%= props.githubUsername %>/<%= props.repoName %>">
+            <img src="<%= props.logoUrl %>" alt="Logo" width="80" height="80" />
+          </a>
+      <% }  %>
+
+
 
   <h2 align="center"><%= props.projectName %></h2>
 
@@ -94,7 +99,7 @@ Contributions are always welcome! . Please read the [contribution guidelines](CO
 ## 🕴️ Contact
 
 - Email : [<%= props.email %>](mailto:<%= props.email %>)
-- Linkedin : [@<%= props.linkedingithubUsername %>](https://linkedin.com/in/<%= props.linkedingithubUsername %>)
+- Linkedin : [@<%= props.linkedinUsername %>](https://linkedin.com/in/<%= props.linkedinUsername %>)
 - Twitter : [@<%= props.twitterHandle %>](https://twitter.com/<%= props.twitterHandle %>)
 - Website : [<%= props.website %>](<%= props.website %>)
 
