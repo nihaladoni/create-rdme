@@ -1,5 +1,5 @@
-// const Constants = require('../../CONSTANTS')
-const store = require('data-store')({ path: process.cwd() + '/userData.json' })
+const homedir = require('os').homedir()
+const store = require('data-store')({ path: homedir + '/userData.json' })
 const prompts = require('prompts')
 
 const command = {
