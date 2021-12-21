@@ -37,7 +37,7 @@
 </div>
 
 
-
+[View Generated Readme](GenReadme.md)
 
 
 <!-- GETTING STARTED -->
