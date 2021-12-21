@@ -2,7 +2,6 @@
   "name": "create-rdme",
   "version": "0.0.1",
   "description": "create-rdme CLI",
-  "private": true,
   "homepage": "https://github.com/nihaladoni/create-rdme",
   "repository": {
     "type": "git",
