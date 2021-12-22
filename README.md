@@ -36,6 +36,8 @@
   <br />
 </div>
 
+![cli-gif](https://raw.githubusercontent.com/nihaladoni/create-rdme/master/images/cli.gif)
+
 
 [View Generated Readme](GenReadme.md)
 
