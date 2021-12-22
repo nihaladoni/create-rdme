@@ -1,5 +1,5 @@
 const homedir = require('os').homedir()
-const store = require('data-store')({ path: homedir + '/userData.json' })
+const store = require('data-store')({ path: homedir + '/createRdmeData.json' })
 const prompts = require('prompts')
 
 const command = {
