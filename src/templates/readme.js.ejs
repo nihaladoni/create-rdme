@@ -5,15 +5,16 @@
 <% if(props.logoUrl){ %>
 <img src="<%= props.logoUrl %>" alt="Logo" width="80" height="80" />
 <% } %>
+</a>
+<% if(props.projectName){ %>
+<h2 align="center"><%= props.projectName %></h2>
+<% } %>
 
-
-  </a>
-
-  <h2 align="center"><%= props.projectName %></h2>
-
+<% if(props.projectDescription){ %>
   <p align="center">
     <%= props.description %>
   </p>
+<% } %>
 
 <!-- Shields -->
   <div align="center">
@@ -35,22 +36,19 @@
   <br />
   <br />
   <p>
+<% if(props.liveUrl){ %>
     <a href="<%= props.liveUrl %> ">View Demo</a>
     ·
-    <a
-      href="https://github.com/<%= props.githubUsername %>/<%= props.repoName %>/issues"
-      >Report Bug</a
-    >
-    ·
-    <a
-      href="https://github.com/<%= props.githubUsername %>/<%= props.repoName %>/issues"
-      >Request Feature</a
-    >
-  </p>
+<% } %>
+<a href="https://github.com/<%= props.githubUsername %>/<%= props.repoName %>/issues">Report Bug</a>
+·
+<a href="https://github.com/<%= props.githubUsername %>/<%= props.repoName %>/issues">Request Feature</a>
+</p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 
+<% if(props.stack){ %>
 ### 💻 Built with
 
 <ul>
@@ -58,7 +56,7 @@
   <li><%= item %></li>
   <% }) %>
 </ul>
-
+<% } %>
 
 
 <!-- GETTING STARTED -->
@@ -96,11 +94,18 @@ Contributions are always welcome! . Please read the [contribution guidelines](CO
 
 <!-- CONTACT -->
 ## 🕴️ Contact
-
+<% if(props.email){ %>
 - Email : [<%= props.email %>](mailto:<%= props.email %>)
+<% } %>
+<% if(props.linkedinUsername){ %>
 - Linkedin : [@<%= props.linkedinUsername %>](https://linkedin.com/in/<%= props.linkedinUsername %>)
+<% } %>
+<% if(props.twitterHandle){ %>
 - Twitter : [@<%= props.twitterHandle %>](https://twitter.com/<%= props.twitterHandle %>)
+<% } %>
+<% if(props.website){ %>
 - Website : [<%= props.website %>](<%= props.website %>)
+<% } %>
 
 
 <!-- LICENSE -->

@@ -45,7 +45,7 @@ const command = {
       {
         type: 'text',
         name: 'liveUrl',
-        message: '🏠 Project homepage'
+        message: '🏠 Project live url'
       },
       {
         type: 'confirm',
