@@ -90,7 +90,7 @@ const command = {
         type: 'text',
         name: 'website',
         message: '🌎 Website',
-        initial: store.get('website') || ''
+        initial: `https://${store.get('website')}` || ''
       }
     ]
 
