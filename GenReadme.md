@@ -5,8 +5,6 @@
 
 <img src="images/logo.svg" alt="Logo" width="80" height="80" />
 
-
-
   </a>
 
   <h2 align="center">Readme CLI</h2>
@@ -67,9 +65,8 @@
   
 </ul>
 
-
-
 <!-- GETTING STARTED -->
+
 ## ⚡ Getting started
 
 1. Clone the repo
@@ -103,15 +100,16 @@ sudo npm link
 Contributions are always welcome! . Please read the [contribution guidelines](CONTRIBUTING) first.
 
 <!-- CONTACT -->
+
 ## 🕴️ Contact
 
 - Email : [nihaladoni@gmail.com](mailto:nihaladoni@gmail.com)
 - Linkedin : [@nehaladoni](https://linkedin.com/in/nehaladoni)
 - Twitter : [@nihaladni05](https://twitter.com/nihaladni05)
-- Website : [nihaladoni.ml](nihaladoni.ml)
-
+- Website : [nihaladoni.ml](https://nihaladoni.ml)
 
 <!-- LICENSE -->
+
 ## 🔔 License
 
 Distributed under the [MIT](LICENSE) License.
