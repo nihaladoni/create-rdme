@@ -3,7 +3,7 @@
 <div align="center">
   <a href="https://github.com/nihaladoni/create-rdme">
 
-<img src="images/logo.svg" alt="Logo" width="80" height="80" />
+<img src="https://raw.githubusercontent.com/nihaladoni/cms/447004680bf10c96524292b384659b52f7bb3fa9/a.svg" alt="Logo" width="80" height="80" />
 
   </a>
 
@@ -46,6 +46,10 @@
     >
   </p>
 </div>
+
+<img src="https://raw.githubusercontent.com/nihaladoni/cms/main/cli.gif" alt="demo-cli"/>
+
+<hr/>
 
 <!-- ABOUT THE PROJECT -->
 
