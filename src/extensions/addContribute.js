@@ -7,7 +7,7 @@ module.exports = toolbox => {
 
     await generate({
       template: 'contribute.js.ejs',
-      target: `${filesystem.cwd()}/CONTRIBUTING`
+      target: `${filesystem.cwd()}/CONTRIBUTING.md`
     })
   }
 }
