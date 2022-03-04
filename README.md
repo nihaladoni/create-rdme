@@ -2,8 +2,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/nihaladoni/create-rdme">
+    
 
-<img src="images/logo.svg" alt="Logo" width="80" height="80" />
+![a](https://user-images.githubusercontent.com/61204519/156774734-6ec996b9-7103-4af1-b5fd-19cd1d2bd77b.svg)
 
 
 
@@ -35,8 +36,8 @@
   <br />
   <br />
 </div>
-
-![cli-gif](https://raw.githubusercontent.com/nihaladoni/create-rdme/master/images/cli.gif)
+ 
+![cli](https://user-images.githubusercontent.com/61204519/156774011-43d10283-5d48-4bee-8584-17e7872132c6.gif)
 
 
 [View Generated Readme](GenReadme.md)
