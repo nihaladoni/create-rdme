@@ -2,11 +2,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/nihaladoni/create-rdme">
-    
+
 
 ![a](https://user-images.githubusercontent.com/61204519/156774734-6ec996b9-7103-4af1-b5fd-19cd1d2bd77b.svg)
-
-
 
   </a>
 
@@ -39,17 +37,18 @@
  
 ![cli](https://user-images.githubusercontent.com/61204519/156774011-43d10283-5d48-4bee-8584-17e7872132c6.gif)
 
-
 [View Generated Readme](GenReadme.md)
 
-
 <!-- GETTING STARTED -->
+
 ## ⚡ Installation and usage
 
-Use npx to generate the files in the project directory  ( no autocomplete )
+Use npx to generate the files in the project directory ( no autocomplete )
+
 ```sh
 npx create-rdme
 ```
+
 <h5>or</h5>
 
 Install the package globally ( enables autocomplete on second run for static values )
@@ -57,7 +56,6 @@ Install the package globally ( enables autocomplete on second run for static val
 ```sh
 sudo npm install -g create-rdme && create-rdme
 ```
-
 
 <!-- ABOUT THE PROJECT -->
 
@@ -81,9 +79,10 @@ sudo npm install -g create-rdme && create-rdme
 
 ## 🌟 Contributing
 
-Contributions are always welcome! . Please read the [contribution guidelines](CONTRIBUTING) first.
+Contributions are always welcome! . Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 <!-- CONTACT -->
+
 ## 🕴️ Contact
 
 - Email : [nihaladoni@gmail.com](mailto:nihaladoni@gmail.com)
@@ -91,8 +90,8 @@ Contributions are always welcome! . Please read the [contribution guidelines](CO
 - Twitter : [@nihaladni05](https://twitter.com/nihaladni05)
 - Website : [nihaladoni.ml](https://nihaladoni.ml)
 
-
 <!-- LICENSE -->
+
 ## 🔔 License
 
 Distributed under the [MIT](LICENSE) License.
