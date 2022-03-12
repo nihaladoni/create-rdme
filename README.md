@@ -54,7 +54,14 @@ npx create-rdme
 Install the package globally ( enables autocomplete on second run for static values )
 
 ```sh
-sudo npm install -g create-rdme && create-rdme
+npm install -g create-rdme
+```
+👆 linux and mac users, add sudo before npm 
+
+Run the package using the command
+
+```sh
+create-rdme
 ```
 
 <!-- ABOUT THE PROJECT -->
