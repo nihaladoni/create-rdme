@@ -43,8 +43,7 @@
 
 ## ⚡ Installation and usage
 
-Use npx to generate the files in the project directory ( no autocomplete )
-
+Use npx to generate the files in the project directory
 ```sh
 npx create-rdme
 ```
